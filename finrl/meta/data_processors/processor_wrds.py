@@ -26,6 +26,7 @@ class WrdsProcessor:
         if_save_tempfile=False,
         filter_shares=0,
     ):
+
         self.start = start_date
         self.end = end_date
         self.time_interval = time_interval
